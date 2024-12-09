@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+
+	<title>Robotics Club Registration Form</title>
+</head>
+<body>
+
+		<br>
+
+		<div class="container">
+            <h1>Racing Club Registration Form</h1>
+        </div>	
+	
+        <br>
+
+       <form><center>
+            
+            <div class="row align-items-center container">
+            <div class="col-8"> <!--div for name-->
+                 <label class="visually-hidden" for="inputName">Name</label>
+                 <input type="name" class="form-control" id="inputName" placeholder="Name">
+             </div>
+
+            <div class="row align-items-center container">
+            <div class="col-2 mt-3"> <!--div for age-->
+                 <label class="visually-hidden" for="inputAge">Age</label>
+                 <input type="age" class="form-control" id="inputAge" placeholder="Age">
+             </div>
+
+                <div class="col-auto mt-3"> <!--div for password-->
+                <label class="visually-hidden" for="inputPhone number">Phone Number</label>
+                <input type="phone number" class="form-control" id="inputPhone number" placeholder="Phone number">
+            </div>
+            </div>
+
+            <div class="row align-items-center container">
+            <div class="col-auto mt-3"> <!--div for email-->
+                <label class="visually-hidden" for="inputEmail">Email</label>
+                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+            </div>
+
+            <div class="col-auto mt-3"> <!--div for password-->
+                <label class="visually-hidden" for="inputPassword">Password</label>
+                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
+            </div>
+            </div>
+
+            <br>
+
+            <div class="container-fluid">
+                <table class="table table-striped table-hover">
+
+        <thead>
+            
+            <tr>
+                <th class="col-2 text-center">Topics</th>
+                <tbody>
+            </tr>
+            <tr>
+                <td><input type="checkbox" id="forza" name="forza"value="forza">
+                <label for="game1"><strong>Forza Horizon<strong></label></td>
+            </tr>
+            <tr>
+                    <td><input type="checkbox" id="NFS" name="NFS"value="NFS">
+                    <label for="game2"><strong>Need For Speed<strong></label></td>
+            </tr>
+           
+            <tr>
+                <td><input type="checkbox" id="AL9" name="AL9"value="AL9">
+                <label for="game3"><strong>Asphalt Legends 9<strong></label></td>
+            </tr>
+           
+            <tr>
+               <td><input type="checkbox" id="GT7" name="GT7"value="GT7">
+                <label for="game4"><strong>Gran Turismo 7<strong></label></td>
+            </tr>
+                </body>
+
+         
+         
+            <th class="col-2 text-center">Levels</th>
+                <tbody>
+            <tr>
+                <td>
+                  <input type="radio" id="beginner" name="levels" value="beginner">
+                  <label for="beginner">Beginner</label></br>
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                  <input type="radio" id="intermediate" name="levels" value="intermediate">
+                  <label for="intermediate">Intermediate</label></br>
+                </td> 
+            </tr>  
+                
+            <tr>
+                <td>
+                  <input type="radio" id="professional" name="levels" value="professional">
+                  <label for="professional">professional</label></br>
+                </td>
+
+            </tr>
+                </thead>
+                    </table>
+            </div>
+
+        <div class="container">
+            <h1>Preferred Racing Project</h1>
+             <select id="rp" name="rp">
+            <option value="Independent Project" selected>Independent Project</option>
+            <option value="Project D">Project D</option>
+            <option value="Project A">Project A</option>
+            <option value="Project B">Project B</option>
+            <option value="Project C">Project C</option>
+          </select>
+          </div>
+        </div>
+
+    <div class="container-fluid">
+        <h4>Insert your inquiries here.</h4>
+
+                <textarea id="comments" name="comments" rows="5" cols="60"></textarea>
+
+        <div>
+
+
+            <div class="col-auto mt-3"> <!--div for checkbox-->
+                <div>
+                    <input class="form-check-input" type="checkbox" id="checkRemember">
+                    <label class="form-check-label" for="checkRemember">Remember me</label>
+                    <input class="form-check-submit" type="submit" id="checkSubmit">
+                    
+                </div>
+            </div>
+</form>
+
+
+
+
+
+</body>
+</html>
